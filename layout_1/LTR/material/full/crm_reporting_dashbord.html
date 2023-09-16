@@ -1,0 +1,2203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Reporting-Dashboard</title>
+
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+        type="text/css">
+    <link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="../../../../global_assets/js/main/jquery.min.js"></script>
+    <script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/ui/ripple.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="../../../../global_assets/js/plugins/forms/selects/select2.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+    <script src="../../../../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/pickers/daterangepicker.js"></script>
+
+    <script src="assets/js/app.js"></script>
+    <script src="../../../../global_assets/js/demo_pages/navbar_components.js"></script>
+    <!-- /theme JS files -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+        type="text/css">
+    <link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="../../../../global_assets/js/main/jquery.min.js"></script>
+    <script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/ui/ripple.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <!-- Core JS files -->
+    <script src="../../../../global_assets/js/main/jquery.min.js"></script>
+    <script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/ui/ripple.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="../../../../global_assets/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+    <script src="../../../../global_assets/js/demo_pages/components_dropdowns.js"></script>
+    <link rel="stylesheet" href="crm.css">
+    <!-- /theme JS files -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!--  chart  script-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href="../../../../global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    
+    <!-- Core JS files -->
+    <script src="../../../../global_assets/js/main/jquery.min.js"></script>
+    <script src="../../../../global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/ui/ripple.min.js"></script>
+    <!-- /core JS files -->
+    
+    <!-- Theme JS files -->
+    <script src="../../../../global_assets/js/plugins/visualization/d3/d3.min.js"></script>
+    <script src="../../../../global_assets/js/plugins/visualization/c3/c3.min.js"></script>
+    
+    <script src="assets/js/app.js"></script>
+    <script src="../../../../global_assets/js/demo_charts/c3/c3_bars_pies.js"></script>
+    <!-- /theme JS files -->
+    <!-- ends chart script -->
+</head>
+
+<body>
+
+    <!-- Main navbar -->
+
+
+
+
+    <div class="navbar navbar-expand-xl navbar-dark bg-slate-700 " style="background-color: #714b67;">
+        <div class="mt-2">
+            <a href="index.html" class="d-inline-block d-flex">
+                <i class="icon-grid3 text-white mt-1"> </i>
+                <h5 class="mb-0 text-white" style="margin-left:20px;font-weight: bold;">CRM</h5>
+
+            </a>
+
+        </div>
+
+
+        <div class="d-xl-none">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-navigation">
+                <i class="icon-menu"></i>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-navigation">
+            <ul class="navbar-nav ">
+
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="navbar-nav-link " data-toggle="dropdown">Sales</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">My Pipeline</a>
+                        <a href="#" class="dropdown-item">My Activities</a>
+                        <a href="#" class="dropdown-item">My Quotations</a>
+                        <a href="#" class="dropdown-item">Teams</a>
+                        <a href="#" class="dropdown-item">Customer</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="navbar-nav-link">Leads</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="navbar-nav-link" data-toggle="dropdown">Reporting</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Dashboard</a>
+                        <a href="#" class="dropdown-item">Forecast</a>
+                        <a href="#" class="dropdown-item">Leads</a>
+                        <a href="#" class="dropdown-item">Pipeline</a>
+                        <a href="#" class="dropdown-item">Activities</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="navbar-nav-link " data-toggle="dropdown">Configuration</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Settings</a>
+                        <a href="#" class="dropdown-item">Sales Teams</a>
+                        <a href="#" class="dropdown-item">Activity Types</a>
+                        <a href="#" class="dropdown-item">Pipeline</a>
+                        <a href="#" class="dropdown-item">Tags</a>
+                        <a href="#" class="dropdown-item">Lost Reasons</a>
+                        <a href="#" class="dropdown-item">Lead Generation</a>
+                        <a href="#" class="dropdown-item">Lead Mining Request</a>
+
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav ml-xl-auto">
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="navbar-nav-link   icon-bubbles4 " data-toggle="dropdown"></a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Settings</a>
+                        <a href="#" class="dropdown-item">Sales Teams</a>
+                        <a href="#" class="dropdown-item">Activity Types</a>
+                        <a href="#" class="dropdown-item">Pipeline</a>
+                        <a href="#" class="dropdown-item">Tags</a>
+                        <a href="#" class="dropdown-item">Lost Reasons</a>
+                        <a href="#" class="dropdown-item">Lead Generation</a>
+                        <a href="#" class="dropdown-item">Lead Mining Request</a>
+
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="navbar-nav-link   icon-alarm " data-toggle="dropdown"></a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item text-grey ">Congratulation your done with activites</a>
+
+
+                    </div>
+                </li>
+
+
+                <li class="nav-item"><a href="#" class="navbar-nav-link">Jalil Ahmed Pavel</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!-- /Main navbar -->
+
+
+    <!-- Page header -->
+
+
+
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-white ">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse page-header" id="navbarSupportedContent" style="">
+
+            <div class="w-100">
+
+                <div class="d-flex ml-2 justify-content-between">
+                    <div>
+                        <h4>Pipeline</h4>
+                    </div>
+
+                    <div class="w-50 d-flex">
+                        <input type="text" class="form-control" placeholder="Right Icon">
+
+                        <span class="input-group-text"><i class="icon-search4 mr-2"></i></span>
+                    </div>
+                </div>
+
+
+
+                <div class="flex-lg-row d-flex  justify-content-between m-2 flex-md-row flex-sm-row  ">
+
+                    <div class="d-flex  justify-content-start">
+                        <div class="">
+                            <button type="button" class="btn   btn-sm legitRipple"
+                                style="height: 32px;width:80px;background-color: #017e84;color:white">CREATE</button>
+                        </div>
+                        <div class="flex-sm-column">
+                            <button type="button" class="btn btn-white legitRipple"
+                                style="height: 32px;width:100px color:#017e84">GENERATE LEADS</button>
+                        </div>
+                        <div class="d-xl-none d-md-none justify-content-start">
+                            <button type="button justify-content-start" class="navbar-toggler" data-toggle="collapse"
+                                data-target="#nadim">
+                                <i class="icon-menu9"></i>
+                            </button>
+                            <p id="nadim">
+                            <div style="font-size:0px;" class="d-flex ">
+                                <a href="#"
+                                    class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                                    <i class="icon-grid6 text-black" style="font-size: 12px;"></i>
+
+                                </a>
+                                <a href="#"
+                                    class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                                    <i class="icon-list2 text-black" style="font-size: 12px;"></i>
+
+                                </a>
+                                <a href="#"
+                                    class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                                    <i class="icon-calendar text-black" style="font-size: 12px;"></i>
+
+
+                                </a>
+                                <a href="#"
+                                    class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                                    <i class="icon-grid7 text-black" style="font-size: 13px;"></i>
+
+                                </a>
+                                <a href="#"
+                                    class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                                    <i class=" icon-stats-bars2 text-black" style="font-size: 13px;"></i>
+
+                                </a>
+                                <a href="#"
+                                    class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                                    <i class="icon-bars-alt text-black" style="font-size: 13px;"></i>
+
+                                </a>
+                                <a href="#"
+                                    class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                                    <i class="icon-cube3 text-black" style="font-size: 13px;"></i>
+
+                                </a>
+                                <a href="#"
+                                    class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                                    <i class="icon-location3 text-black" style="font-size: 13px;"></i>
+
+                                </a>
+                                <a href="#"
+                                    class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                                    <i class="icon-alarm text-black" style="font-size: 13px;"></i>
+
+                                </a>
+
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class=" d-flex " style="margin-left:380px">
+                        <a href="#"
+                            class="btn btn-link btn-float font-size-sm font-weight-semibold     text-default d-flex">
+
+                            <i class="icon-filter3 text-black"
+                                style="font-size: 12px; font-weight:bold"><span>Filters</span></i>
+
+
+                        </a>
+
+
+                        <a href="#"
+                            class="btn btn-link btn-float font-size-sm font-weight-semibold text-default d-flex">
+                            <i class="icon-menu7 text-black" style="font-size: 12px; font-weight:bold"><span>Group
+                                    By</span></i>
+
+                        </a>
+                        <a href="#"
+                            class="btn btn-link btn-float font-size-sm font-weight-semibold text-default d-flex">
+
+                            <i class="icon-star-full2 text-black"
+                                style="font-size: 12px; font-weight:bold"><span>Favorites</span></i>
+
+                        </a>
+                    </div>
+
+
+                    <div style="font-size:0px;" class="d-flex justify-content-end" id="nadim1">
+                        <a href="#" class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                            <i class="icon-grid6 text-black" style="font-size: 12px;"></i>
+
+                        </a>
+                        <a href="#" class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                            <i class="icon-list2 text-black" style="font-size: 12px;"></i>
+
+                        </a>
+                        <a href="#" class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                            <i class="icon-calendar text-black" style="font-size: 12px;"></i>
+
+
+                        </a>
+                        <a href="#" class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                            <i class="icon-grid7 text-black" style="font-size: 13px;"></i>
+
+                        </a>
+                        <a href="#" class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                            <i class=" icon-stats-bars2 text-black" style="font-size: 13px;"></i>
+
+                        </a>
+                        <a href="#" class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                            <i class="icon-bars-alt text-black" style="font-size: 13px;"></i>
+
+                        </a>
+                        <a href="#" class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                            <i class="icon-cube3 text-black" style="font-size: 13px;"></i>
+
+                        </a>
+                        <a href="#" class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                            <i class="icon-location3 text-black" style="font-size: 13px;"></i>
+
+                        </a>
+                        <a href="#" class="btn btn-link btn-float font-size-sm font-weight-semibold text-default">
+                            <i class="icon-alarm text-black" style="font-size: 13px;"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </nav>
+    <!-- Page header -->
+    <div class="content" style="background-color: #ffff;">
+       <div class="d-flex justify-content-between flex-wrap">
+           <div>
+                <div class="d-flex align-items-center">
+                    <div class="d-flex">                       
+                        <div class="btn-group justify-content-center align-items-center"
+                            style="border:1px solid gainsboro;height: max-content; ">
+                            <a href="#" class="btn bg-white dropdown-toggle " data-toggle="dropdown" aria-expanded="false"
+                                style="font-size: .7rem; padding:5px 5px ;">Measures
+                                <div class="legitRipple-ripple"
+                                    style="left: 86.2067%; top: 66.8586%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                                </div>
+                                <div class="legitRipple-ripple"
+                                    style="left: 92.5783%; top: 22.1217%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                                </div>
+                                <div class="legitRipple-ripple"
+                                    style="left: 85.6275%; top: 51.0691%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                                </div>
+                                <div class="legitRipple-ripple"
+                                    style="left: 85.6275%; top: 51.0691%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                                </div>
+                            </a>
+                
+                            <div class="dropdown-menu" style="z-index: 2;"  x-placement="bottom-start"
+                                style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+                                <a href="#" class="dropdown-item">Action</a>
+                                <a href="#" class="dropdown-item">Another action</a>
+                                <a href="#" class="dropdown-item">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-submenu">
+                                    <a href="#" class="dropdown-item dropdown-toggle">More options</a>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">Second level link</a>
+                                        <div class="dropdown-submenu">
+                                            <a href="#" class="dropdown-item dropdown-toggle">Second level link</a>
+                                            <div class="dropdown-menu">
+                                                <a href="#" class="dropdown-item">Third level link</a>
+                                                <a href="#" class="dropdown-item">Third level link</a>
+                                                <a href="#" class="dropdown-item">Third level link</a>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="dropdown-item">Second level link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-group justify-content-center align-items-center ml-1"
+                            style="border:1px solid gainsboro;height: max-content; ">
+                            <a href="#" class="btn bg-white dropdown-toggle " data-toggle="dropdown" aria-expanded="false"
+                                style="font-size: .7rem; padding:5px 5px ;"> <i class="icon-menu7 text-black"></i> Measures
+                                <div class="legitRipple-ripple"
+                                    style="left: 86.2067%; top: 66.8586%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                                </div>
+                                <div class="legitRipple-ripple"
+                                    style="left: 92.5783%; top: 22.1217%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                                </div>
+                                <div class="legitRipple-ripple"
+                                    style="left: 85.6275%; top: 51.0691%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                                </div>
+                                <div class="legitRipple-ripple"
+                                    style="left: 85.6275%; top: 51.0691%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                                </div>
+                            </a>
+                
+                            <div class="dropdown-menu" x-placement="bottom-start"
+                                style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);">
+                                <a href="#" class="dropdown-item">Action</a>
+                                <a href="#" class="dropdown-item">Another action</a>
+                                <a href="#" class="dropdown-item">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-submenu">
+                                    <a href="#" class="dropdown-item dropdown-toggle">More options</a>
+                                    <div class="dropdown-menu">
+                                        <a href="#" class="dropdown-item">Second level link</a>
+                                        <div class="dropdown-submenu">
+                                            <a href="#" class="dropdown-item dropdown-toggle">Second level link</a>
+                                            <div class="dropdown-menu">
+                                                <a href="#" class="dropdown-item">Third level link</a>
+                                                <a href="#" class="dropdown-item">Third level link</a>
+                                                <a href="#" class="dropdown-item">Third level link</a>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="dropdown-item">Second level link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                
+                        <!-- dropdown-end -->
+                    </div>
+                    <div class="d-flex align-items-center ml-2">
+                        <a href="#" class="d-flex align-items-center"
+                            style="font-size: .8rem; border:1px solid gainsboro; padding: 5px 5px;">
+                            <i class="icon-stats-growth text-dark"></i>
+                        </a>
+                        <a href="#" class="d-flex align-items-center"
+                            style="font-size: .8rem; border:1px solid gainsboro; padding: 5px 5px; border-left: none;">
+                            <i class="icon-chart text-dark"></i>
+                        </a>
+                        <a href="#" class="d-flex align-items-center"
+                            style="font-size: .8rem; border:1px solid gainsboro; padding: 5px 5px; border-left: none;">
+                            <i class="icon-pie-chart4  text-dark"></i>
+                        </a>
+                
+                    </div>
+                    <div class="d-flex align-items-center ml-2">
+                        <a href="#" class="d-flex align-items-center"
+                            style="font-size: .8rem; border:1px solid gainsboro; padding: 5px 5px;">
+                            <i class="icon-database2  text-dark"></i>
+                        </a>
+                    </div>
+                </div>
+           </div>
+        <a href="#" class="d-flex align-items-center"
+            style="font-size: .8rem; border:1px solid gainsboro; padding: 5px 5px;">
+            <i class="icon-shuffle text-dark"></i>
+        </a>
+       </div>
+       <!-- bar-chart starts here -->
+       <div class="bar-chart" style="z-index: -2;">
+            <div class="chart c3" id="c3-combined-chart" style="max-height: 400px; position: relative;"><svg width="1497"
+                    height="400" style="overflow: hidden;">
+                    <defs>
+                        <clipPath id="c3-1653115873094-clip">
+                            <rect width="1445" height="346"></rect>
+                        </clipPath>
+                        <clipPath id="c3-1653115873094-clip-xaxis">
+                            <rect x="-51" y="-20" width="1527" height="70"></rect>
+                        </clipPath>
+                        <clipPath id="c3-1653115873094-clip-yaxis">
+                            <rect x="-49" y="-4" width="70" height="370"></rect>
+                        </clipPath>
+                        <clipPath id="c3-1653115873094-clip-grid">
+                            <rect width="1445" height="346"></rect>
+                        </clipPath>
+                        <clipPath id="c3-1653115873094-clip-subchart">
+                            <rect width="1445"></rect>
+                        </clipPath>
+                    </defs>
+                    <g transform="translate(50.5,4.5)"><text class="c3-text c3-empty" text-anchor="middle"
+                            dominant-baseline="middle" x="722.5" y="173" style="opacity: 0;"></text>
+                        <rect class="c3-zoom-rect" width="1445" height="346" style="opacity: 0;"></rect>
+                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653115873094-clip)"
+                            class="c3-regions" style="visibility: visible;"></g>
+                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653115873094-clip-grid)"
+                            class="c3-grid" style="visibility: visible;">
+                            <g class="c3-xgrid-focus">
+                                <line class="c3-xgrid-focus" x1="-10" x2="-10" y1="0" y2="346" style="visibility: hidden;"></line>
+                            </g>
+                        </g>
+                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653115873094-clip)"
+                            class="c3-chart">
+                            <g class="c3-event-rects c3-event-rects-single" style="fill-opacity: 0;">
+                                <rect class=" c3-event-rect c3-event-rect-0" x="0.5833333333333286" y="0" width="240.83333333333334"
+                                    height="346"></rect>
+                                <rect class=" c3-event-rect c3-event-rect-1" x="241.58333333333331" y="0" width="240.83333333333334"
+                                    height="346"></rect>
+                                <rect class=" c3-event-rect c3-event-rect-2" x="482.5833333333333" y="0" width="240.83333333333334"
+                                    height="346"></rect>
+                                <rect class=" c3-event-rect c3-event-rect-3" x="722.5833333333334" y="0" width="240.83333333333334"
+                                    height="346"></rect>
+                                <rect class=" c3-event-rect c3-event-rect-4" x="963.5833333333334" y="0" width="240.83333333333334"
+                                    height="346"></rect>
+                                <rect class=" c3-event-rect c3-event-rect-5" x="1204.5833333333333" y="0" width="240.83333333333334"
+                                    height="346"></rect>
+                            </g>
+                            <g class="c3-chart-bars">
+                                <g class="c3-chart-bar c3-target c3-target-data1" style="pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data1 c3-bars c3-bars-data1" style="cursor: pointer;">
+                                        <path class="c3-shape c3-shape-0 c3-bar c3-bar-0"
+                                            style="stroke: rgb(46, 199, 201); fill: rgb(46, 199, 201); opacity: 1;"
+                                            d="M 48.75,346 L48.75,322.47727272727275 L121,322.47727272727275 L121,346 z"></path>
+                                        <path class="c3-shape c3-shape-1 c3-bar c3-bar-1"
+                                            style="stroke: rgb(46, 199, 201); fill: rgb(46, 199, 201); opacity: 1;"
+                                            d="M 289.75,346 L289.75,330.31818181818187 L362,330.31818181818187 L362,346 z"></path>
+                                        <path class="c3-shape c3-shape-2 c3-bar c3-bar-2"
+                                            style="stroke: rgb(46, 199, 201); fill: rgb(46, 199, 201); opacity: 1;"
+                                            d="M 530.75,346 L530.75,306.79545454545456 L603,306.79545454545456 L603,346 z"></path>
+                                        <path class="c3-shape c3-shape-3 c3-bar c3-bar-3"
+                                            style="stroke: rgb(46, 199, 201); fill: rgb(46, 199, 201); opacity: 1;"
+                                            d="M 770.75,346 L770.75,314.6363636363636 L843,314.6363636363636 L843,346 z"></path>
+                                        <path class="c3-shape c3-shape-4 c3-bar c3-bar-4"
+                                            style="stroke: rgb(46, 199, 201); fill: rgb(46, 199, 201); opacity: 1;"
+                                            d="M 1011.75,346 L1011.75,298.95454545454544 L1084,298.95454545454544 L1084,346 z">
+                                        </path>
+                                        <path class="c3-shape c3-shape-5 c3-bar c3-bar-5"
+                                            style="stroke: rgb(46, 199, 201); fill: rgb(46, 199, 201); opacity: 1;"
+                                            d="M 1252.75,346 L1252.75,306.79545454545456 L1325,306.79545454545456 L1325,346 z">
+                                        </path>
+                                    </g>
+                                </g>
+                                <g class="c3-chart-bar c3-target c3-target-data2" style="pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data2 c3-bars c3-bars-data2" style="cursor: pointer;">
+                                        <path class="c3-shape c3-shape-0 c3-bar c3-bar-0"
+                                            style="stroke: rgb(182, 162, 222); fill: rgb(182, 162, 222); opacity: 1;"
+                                            d="M 48.75,322.47727272727275 L48.75,165.65909090909093 L121,165.65909090909093 L121,322.47727272727275 z">
+                                        </path>
+                                        <path class="c3-shape c3-shape-1 c3-bar c3-bar-1"
+                                            style="stroke: rgb(182, 162, 222); fill: rgb(182, 162, 222); opacity: 1;"
+                                            d="M 289.75,330.31818181818187 L289.75,228.38636363636368 L362,228.38636363636368 L362,330.31818181818187 z">
+                                        </path>
+                                        <path class="c3-shape c3-shape-2 c3-bar c3-bar-2"
+                                            style="stroke: rgb(182, 162, 222); fill: rgb(182, 162, 222); opacity: 1;"
+                                            d="M 530.75,306.79545454545456 L530.75,236.2272727272727 L603,236.2272727272727 L603,306.79545454545456 z">
+                                        </path>
+                                        <path class="c3-shape c3-shape-3 c3-bar c3-bar-3"
+                                            style="stroke: rgb(182, 162, 222); fill: rgb(182, 162, 222); opacity: 1;"
+                                            d="M 770.75,314.6363636363636 L770.75,126.45454545454544 L843,126.45454545454544 L843,314.6363636363636 z">
+                                        </path>
+                                        <path class="c3-shape c3-shape-4 c3-bar c3-bar-4"
+                                            style="stroke: rgb(182, 162, 222); fill: rgb(182, 162, 222); opacity: 1;"
+                                            d="M 1011.75,298.95454545454544 L1011.75,197.02272727272725 L1084,197.02272727272725 L1084,298.95454545454544 z">
+                                        </path>
+                                        <path class="c3-shape c3-shape-5 c3-bar c3-bar-5"
+                                            style="stroke: rgb(182, 162, 222); fill: rgb(182, 162, 222); opacity: 1;"
+                                            d="M 1252.75,306.79545454545456 L1252.75,134.29545454545456 L1325,134.29545454545456 L1325,306.79545454545456 z">
+                                        </path>
+                                    </g>
+                                </g>
+                                <g class="c3-chart-bar c3-target c3-target-data3" style="pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data3 c3-bars c3-bars-data3" style="cursor: pointer;"></g>
+                                </g>
+                                <g class="c3-chart-bar c3-target c3-target-data4" style="pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data4 c3-bars c3-bars-data4" style="cursor: pointer;"></g>
+                                </g>
+                                <g class="c3-chart-bar c3-target c3-target-data5" style="pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data5 c3-bars c3-bars-data5" style="cursor: pointer;">
+                                        <path class="c3-shape c3-shape-0 c3-bar c3-bar-0"
+                                            style="stroke: rgb(216, 122, 128); fill: rgb(216, 122, 128); opacity: 1;"
+                                            d="M 121,346 L121,244.0681818181818 L193.25,244.0681818181818 L193.25,346 z"></path>
+                                        <path class="c3-shape c3-shape-1 c3-bar c3-bar-1"
+                                            style="stroke: rgb(216, 122, 128); fill: rgb(216, 122, 128); opacity: 1;"
+                                            d="M 362,346 L362,251.90909090909093 L434.25,251.90909090909093 L434.25,346 z"></path>
+                                        <path class="c3-shape c3-shape-2 c3-bar c3-bar-2"
+                                            style="stroke: rgb(216, 122, 128); fill: rgb(216, 122, 128); opacity: 1;"
+                                            d="M 603,346 L603,228.38636363636365 L675.25,228.38636363636365 L675.25,346 z"></path>
+                                        <path class="c3-shape c3-shape-3 c3-bar c3-bar-3"
+                                            style="stroke: rgb(216, 122, 128); fill: rgb(216, 122, 128); opacity: 1;"
+                                            d="M 843,346 L843,236.22727272727275 L915.25,236.22727272727275 L915.25,346 z"></path>
+                                        <path class="c3-shape c3-shape-4 c3-bar c3-bar-4"
+                                            style="stroke: rgb(216, 122, 128); fill: rgb(216, 122, 128); opacity: 1;"
+                                            d="M 1084,346 L1084,220.54545454545456 L1156.25,220.54545454545456 L1156.25,346 z">
+                                        </path>
+                                        <path class="c3-shape c3-shape-5 c3-bar c3-bar-5"
+                                            style="stroke: rgb(216, 122, 128); fill: rgb(216, 122, 128); opacity: 1;"
+                                            d="M 1325,346 L1325,228.38636363636365 L1397.25,228.38636363636365 L1397.25,346 z">
+                                        </path>
+                                    </g>
+                                </g>
+                                <g class="c3-chart-bar c3-target c3-target-data6" style="pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data6 c3-bars c3-bars-data6" style="cursor: pointer;"></g>
+                                </g>
+                            </g>
+                            <g class="c3-chart-lines">
+                                <g class="c3-chart-line c3-target c3-target-data1" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data1 c3-lines c3-lines-data1"></g>
+                                    <g class=" c3-shapes c3-shapes-data1 c3-areas c3-areas-data1"></g>
+                                    <g class=" c3-selected-circles c3-selected-circles-data1"></g>
+                                    <g class=" c3-shapes c3-shapes-data1 c3-circles c3-circles-data1" style="cursor: pointer;"></g>
+                                </g>
+                                <g class="c3-chart-line c3-target c3-target-data2" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data2 c3-lines c3-lines-data2"></g>
+                                    <g class=" c3-shapes c3-shapes-data2 c3-areas c3-areas-data2"></g>
+                                    <g class=" c3-selected-circles c3-selected-circles-data2"></g>
+                                    <g class=" c3-shapes c3-shapes-data2 c3-circles c3-circles-data2" style="cursor: pointer;"></g>
+                                </g>
+                                <g class="c3-chart-line c3-target c3-target-data3" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data3 c3-lines c3-lines-data3">
+                                        <path class=" c3-shape c3-shape c3-line c3-line-data3"
+                                            d="M121,110.7727272727273Q313.8,178.20454545454547,362,189.1818181818182C434.3,205.64772727272728,530.85,244.06818181818184,603,220.54545454545456S770.85,42.948863636363654,843,32.363636363636374S1011.7,132.33522727272725,1084,149.9772727272727Q1132.2,161.73863636363632,1325,149.9772727272727"
+                                            style="stroke: rgb(90, 177, 239); opacity: 1;"></path>
+                                    </g>
+                                    <g class=" c3-shapes c3-shapes-data3 c3-areas c3-areas-data3">
+                                        <path class=" c3-shape c3-shape c3-area c3-area-data3" d="M 121 110.7727272727273"
+                                            style="fill: rgb(90, 177, 239); opacity: 0.4;"></path>
+                                    </g>
+                                    <g class=" c3-selected-circles c3-selected-circles-data3"></g>
+                                    <g class=" c3-shapes c3-shapes-data3 c3-circles c3-circles-data3" style="cursor: pointer;">
+                                        <circle class="c3-shape c3-shape-0 c3-circle c3-circle-0" r="2.5"
+                                            style="fill: rgb(90, 177, 239); opacity: 1;" cx="121" cy="110.7727272727273"></circle>
+                                        <circle class="c3-shape c3-shape-1 c3-circle c3-circle-1" r="2.5"
+                                            style="fill: rgb(90, 177, 239); opacity: 1;" cx="362" cy="189.1818181818182"></circle>
+                                        <circle class="c3-shape c3-shape-2 c3-circle c3-circle-2" r="2.5"
+                                            style="fill: rgb(90, 177, 239); opacity: 1;" cx="603" cy="220.54545454545456"></circle>
+                                        <circle class=" c3-shape c3-shape-3 c3-circle c3-circle-3" r="2.5"
+                                            style="fill: rgb(90, 177, 239); opacity: 1;" cx="843" cy="32.363636363636374"></circle>
+                                        <circle class=" c3-shape c3-shape-4 c3-circle c3-circle-4" r="2.5"
+                                            style="fill: rgb(90, 177, 239); opacity: 1;" cx="1084" cy="149.9772727272727"></circle>
+                                        <circle class=" c3-shape c3-shape-5 c3-circle c3-circle-5" r="2.5"
+                                            style="fill: rgb(90, 177, 239); opacity: 1;" cx="1325" cy="149.9772727272727"></circle>
+                                    </g>
+                                </g>
+                                <g class="c3-chart-line c3-target c3-target-data4" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data4 c3-lines c3-lines-data4">
+                                        <path class=" c3-shape c3-shape c3-line c3-line-data4"
+                                            d="M121,189.1818181818182L362,244.0681818181818L603,275.43181818181813L843,157.8181818181818L1084,244.0681818181818L1325,173.5"
+                                            style="stroke: rgb(255, 185, 128); opacity: 1;"></path>
+                                    </g>
+                                    <g class=" c3-shapes c3-shapes-data4 c3-areas c3-areas-data4">
+                                        <path class=" c3-shape c3-shape c3-area c3-area-data4" d="M 121 189.1818181818182"
+                                            style="fill: rgb(255, 185, 128); opacity: 0.4;"></path>
+                                    </g>
+                                    <g class=" c3-selected-circles c3-selected-circles-data4"></g>
+                                    <g class=" c3-shapes c3-shapes-data4 c3-circles c3-circles-data4" style="cursor: pointer;">
+                                        <circle class="c3-shape c3-shape-0 c3-circle c3-circle-0" r="2.5"
+                                            style="fill: rgb(255, 185, 128); opacity: 1;" cx="121" cy="189.1818181818182"></circle>
+                                        <circle class="c3-shape c3-shape-1 c3-circle c3-circle-1" r="2.5"
+                                            style="fill: rgb(255, 185, 128); opacity: 1;" cx="362" cy="244.0681818181818"></circle>
+                                        <circle class="c3-shape c3-shape-2 c3-circle c3-circle-2" r="2.5"
+                                            style="fill: rgb(255, 185, 128); opacity: 1;" cx="603" cy="275.43181818181813"></circle>
+                                        <circle class=" c3-shape c3-shape-3 c3-circle c3-circle-3" r="2.5"
+                                            style="fill: rgb(255, 185, 128); opacity: 1;" cx="843" cy="157.8181818181818"></circle>
+                                        <circle class=" c3-shape c3-shape-4 c3-circle c3-circle-4" r="2.5"
+                                            style="fill: rgb(255, 185, 128); opacity: 1;" cx="1084" cy="244.0681818181818"></circle>
+                                        <circle class=" c3-shape c3-shape-5 c3-circle c3-circle-5" r="2.5"
+                                            style="fill: rgb(255, 185, 128); opacity: 1;" cx="1325" cy="173.5"></circle>
+                                    </g>
+                                </g>
+                                <g class="c3-chart-line c3-target c3-target-data5" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data5 c3-lines c3-lines-data5"></g>
+                                    <g class=" c3-shapes c3-shapes-data5 c3-areas c3-areas-data5"></g>
+                                    <g class=" c3-selected-circles c3-selected-circles-data5"></g>
+                                    <g class=" c3-shapes c3-shapes-data5 c3-circles c3-circles-data5" style="cursor: pointer;"></g>
+                                </g>
+                                <g class="c3-chart-line c3-target c3-target-data6" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-shapes c3-shapes-data6 c3-lines c3-lines-data6">
+                                        <path class=" c3-shape c3-shape c3-line c3-line-data6"
+                                            d="M121,275.43181818181813L362,291.1136363636364L603,330.31818181818187L843,306.79545454545456L1084,298.95454545454544L1325,251.90909090909093"
+                                            style="stroke: rgb(141, 152, 179); opacity: 1;"></path>
+                                    </g>
+                                    <g class=" c3-shapes c3-shapes-data6 c3-areas c3-areas-data6">
+                                        <path class=" c3-shape c3-shape c3-area c3-area-data6"
+                                            d="M121,275.43181818181813L362,291.1136363636364L603,330.31818181818187L843,306.79545454545456L1084,298.95454545454544L1325,251.90909090909093L1325,346L1084,346L843,346L603,346L362,346L121,346Z"
+                                            style="fill: rgb(141, 152, 179); opacity: 0.4;"></path>
+                                    </g>
+                                    <g class=" c3-selected-circles c3-selected-circles-data6"></g>
+                                    <g class=" c3-shapes c3-shapes-data6 c3-circles c3-circles-data6" style="cursor: pointer;">
+                                        <circle class="c3-shape c3-shape-0 c3-circle c3-circle-0" r="2.5"
+                                            style="fill: rgb(141, 152, 179); opacity: 1;" cx="121" cy="275.43181818181813"></circle>
+                                        <circle class="c3-shape c3-shape-1 c3-circle c3-circle-1" r="2.5"
+                                            style="fill: rgb(141, 152, 179); opacity: 1;" cx="362" cy="291.1136363636364"></circle>
+                                        <circle class="c3-shape c3-shape-2 c3-circle c3-circle-2" r="2.5"
+                                            style="fill: rgb(141, 152, 179); opacity: 1;" cx="603" cy="330.31818181818187"></circle>
+                                        <circle class=" c3-shape c3-shape-3 c3-circle c3-circle-3" r="2.5"
+                                            style="fill: rgb(141, 152, 179); opacity: 1;" cx="843" cy="306.79545454545456"></circle>
+                                        <circle class=" c3-shape c3-shape-4 c3-circle c3-circle-4" r="2.5"
+                                            style="fill: rgb(141, 152, 179); opacity: 1;" cx="1084" cy="298.95454545454544">
+                                        </circle>
+                                        <circle class=" c3-shape c3-shape-5 c3-circle c3-circle-5" r="2.5"
+                                            style="fill: rgb(141, 152, 179); opacity: 1;" cx="1325" cy="251.90909090909093">
+                                        </circle>
+                                    </g>
+                                </g>
+                            </g>
+                            <g class="c3-chart-arcs" transform="translate(722.5,168)"><text class="c3-chart-arcs-title"
+                                    style="text-anchor: middle; opacity: 0;"></text></g>
+                            <g class="c3-chart-texts">
+                                <g class="c3-chart-text c3-target c3-target-data1" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-texts c3-texts-data1"></g>
+                                </g>
+                                <g class="c3-chart-text c3-target c3-target-data2" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-texts c3-texts-data2"></g>
+                                </g>
+                                <g class="c3-chart-text c3-target c3-target-data3" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-texts c3-texts-data3"></g>
+                                </g>
+                                <g class="c3-chart-text c3-target c3-target-data4" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-texts c3-texts-data4"></g>
+                                </g>
+                                <g class="c3-chart-text c3-target c3-target-data5" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-texts c3-texts-data5"></g>
+                                </g>
+                                <g class="c3-chart-text c3-target c3-target-data6" style="opacity: 1; pointer-events: none;">
+                                    <g class=" c3-texts c3-texts-data6"></g>
+                                </g>
+                            </g>
+                        </g>
+                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653115873094-clip-grid)"
+                            class="c3-grid c3-grid-lines">
+                            <g class="c3-xgrid-lines"></g>
+                            <g class="c3-ygrid-lines"></g>
+                        </g>
+                        <g class="c3-axis c3-axis-x"
+                            clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653115873094-clip-xaxis)"
+                            transform="translate(0,346)" style="visibility: visible; opacity: 1;"><text class="c3-axis-x-label"
+                                transform="" style="text-anchor: end;" x="1445" dx="-0.5em" dy="-0.5em"></text>
+                            <g class="tick" transform="translate(121, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">0</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(362, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">1</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(603, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">2</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(843, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">3</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(1084, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">4</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(1325, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">5</tspan>
+                                </text>
+                            </g>
+                            <path class="domain" d="M0,6V0H1445V6"></path>
+                        </g>
+                        <g class="c3-axis c3-axis-y"
+                            clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653115873094-clip-yaxis)"
+                            transform="translate(0,0)" style="visibility: visible; opacity: 1;"><text class="c3-axis-y-label"
+                                transform="rotate(-90)" style="text-anchor: end;" x="0" dx="-0.5em" dy="1.2em"></text>
+                            <g class="tick" transform="translate(0,346)" style="opacity: 1;">
+                                <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                    <tspan x="-9" dy="3">0</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,307)" style="opacity: 1;">
+                                <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                    <tspan x="-9" dy="3">50</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,268)" style="opacity: 1;">
+                                <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                    <tspan x="-9" dy="3">100</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,229)" style="opacity: 1;">
+                                <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                    <tspan x="-9" dy="3">150</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,190)" style="opacity: 1;">
+                                <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                    <tspan x="-9" dy="3">200</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,150)" style="opacity: 1;">
+                                <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                    <tspan x="-9" dy="3">250</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,111)" style="opacity: 1;">
+                                <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                    <tspan x="-9" dy="3">300</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,72)" style="opacity: 1;">
+                                <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                    <tspan x="-9" dy="3">350</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,33)" style="opacity: 1;">
+                                <line x2="-6"></line><text x="-9" y="0" style="text-anchor: end;">
+                                    <tspan x="-9" dy="3">400</tspan>
+                                </text>
+                            </g>
+                            <path class="domain" d="M-6,1H0V346H-6"></path>
+                        </g>
+                        <g class="c3-axis c3-axis-y2" transform="translate(1445,0)" style="visibility: hidden; opacity: 1;"><text
+                                class="c3-axis-y2-label" transform="rotate(-90)" style="text-anchor: end;" x="0" dx="-0.5em"
+                                dy="-0.5em"></text>
+                            <g class="tick" transform="translate(0,346)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,312)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0.1</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,277)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0.2</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,243)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0.3</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,208)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0.4</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,174)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0.5</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,139)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0.6</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,105)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0.7</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,70)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0.8</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,36)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">0.9</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(0,1)" style="opacity: 1;">
+                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                    <tspan x="9" dy="3">1</tspan>
+                                </text>
+                            </g>
+                            <path class="domain" d="M6,1H0V346H6"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(20.5,400.5)" style="visibility: hidden;">
+                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653115873094-clip-subchart)"
+                            class="c3-chart">
+                            <g class="c3-chart-bars"></g>
+                            <g class="c3-chart-lines"></g>
+                        </g>
+                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653115873094-clip)"
+                            class="c3-brush" style="pointer-events: all; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                            <rect class="background" x="0" width="1475" style="visibility: hidden; cursor: crosshair;"></rect>
+                            <rect class="extent" x="0" width="0" style="cursor: move;"></rect>
+                            <g class="resize e" transform="translate(0,0)" style="cursor: ew-resize; display: none;">
+                                <rect x="-3" width="6" height="6" style="visibility: hidden;"></rect>
+                            </g>
+                            <g class="resize w" transform="translate(0,0)" style="cursor: ew-resize; display: none;">
+                                <rect x="-3" width="6" height="6" style="visibility: hidden;"></rect>
+                            </g>
+                        </g>
+                        <g class="c3-axis-x" transform="translate(0,0)"
+                            clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653115873094-clip-xaxis)"
+                            style="visibility: hidden; opacity: 1;">
+                            <g class="tick" transform="translate(121, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">0</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(362, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">1</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(603, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">2</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(843, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">3</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(1084, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">4</tspan>
+                                </text>
+                            </g>
+                            <g class="tick" transform="translate(1325, 0)" style="opacity: 1;">
+                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                    style="text-anchor: middle; display: block;">
+                                    <tspan x="0" dy=".71em" dx="0">5</tspan>
+                                </text>
+                            </g>
+                            <path class="domain" d="M0,6V0H1445V6"></path>
+                        </g>
+                    </g>
+                    <g transform="translate(0,380)">
+                        <g class="c3-legend-item c3-legend-item-data1" style="visibility: visible; cursor: pointer; opacity: 1;">
+                            <text x="602.40625" y="9" style="pointer-events: none;">data1</text>
+                            <rect class="c3-legend-item-event" x="588.40625" y="-5" width="55.03125" height="18"
+                                style="fill-opacity: 0;"></rect>
+                            <line class="c3-legend-item-tile" x1="586.40625" y1="4" x2="596.40625" y2="4" stroke-width="10"
+                                style="stroke: rgb(46, 199, 201); pointer-events: none;"></line>
+                        </g>
+                        <g class="c3-legend-item c3-legend-item-data2" style="visibility: visible; cursor: pointer;"><text
+                                x="657.4375" y="9" style="pointer-events: none;">data6</text>
+                            <rect class="c3-legend-item-event" x="643.4375" y="-5" width="55.03125" height="18"
+                                style="fill-opacity: 0;"></rect>
+                            <line class="c3-legend-item-tile" x1="641.4375" y1="4" x2="651.4375" y2="4" stroke-width="10"
+                                style="stroke: rgb(141, 152, 179); pointer-events: none;"></line>
+                        </g>
+                        <g class="c3-legend-item c3-legend-item-data3" style="visibility: visible; cursor: pointer; opacity: 1;">
+                            <text x="712.46875" y="9" style="pointer-events: none;">data5</text>
+                            <rect class="c3-legend-item-event" x="698.46875" y="-5" width="55.03125" height="18"
+                                style="fill-opacity: 0;"></rect>
+                            <line class="c3-legend-item-tile" x1="696.46875" y1="4" x2="706.46875" y2="4" stroke-width="10"
+                                style="stroke: rgb(216, 122, 128); pointer-events: none;"></line>
+                        </g>
+                        <g class="c3-legend-item c3-legend-item-data4" style="visibility: visible; cursor: pointer; opacity: 1;">
+                            <text x="767.5" y="9" style="pointer-events: none;">data2</text>
+                            <rect class="c3-legend-item-event" x="753.5" y="-5" width="55.03125" height="18"
+                                style="fill-opacity: 0;"></rect>
+                            <line class="c3-legend-item-tile" x1="751.5" y1="4" x2="761.5" y2="4" stroke-width="10"
+                                style="stroke: rgb(182, 162, 222); pointer-events: none;"></line>
+                        </g>
+                        <g class="c3-legend-item c3-legend-item-data5" style="visibility: visible; cursor: pointer; opacity: 1;">
+                            <text x="822.53125" y="9" style="pointer-events: none;">data4</text>
+                            <rect class="c3-legend-item-event" x="808.53125" y="-5" width="55.03125" height="18"
+                                style="fill-opacity: 0;"></rect>
+                            <line class="c3-legend-item-tile" x1="806.53125" y1="4" x2="816.53125" y2="4" stroke-width="10"
+                                style="stroke: rgb(255, 185, 128); pointer-events: none;"></line>
+                        </g>
+                        <g class="c3-legend-item c3-legend-item-data6" style="visibility: visible; cursor: pointer; opacity: 1;">
+                            <text x="877.5625" y="9" style="pointer-events: none;">data3</text>
+                            <rect class="c3-legend-item-event" x="863.5625" y="-5" width="45.03125" height="18"
+                                style="fill-opacity: 0;"></rect>
+                            <line class="c3-legend-item-tile" x1="861.5625" y1="4" x2="871.5625" y2="4" stroke-width="10"
+                                style="stroke: rgb(90, 177, 239); pointer-events: none;"></line>
+                        </g>
+                    </g><text class="c3-title" x="748.5" y="0"></text>
+                </svg>
+                <div class="c3-tooltip-container"
+                    style="position: absolute; pointer-events: none; display: none; top: 55.7188px; left: 191.5px;">
+                    <table class="c3-tooltip">
+                        <tbody>
+                            <tr>
+                                <th colspan="2">0</th>
+                            </tr>
+                            <tr class="c3-tooltip-name--data3">
+                                <td class="name"><span style="background-color:#5ab1ef"></span>data3</td>
+                                <td class="value">300</td>
+                            </tr>
+                            <tr class="c3-tooltip-name--data4">
+                                <td class="name"><span style="background-color:#ffb980"></span>data4</td>
+                                <td class="value">200</td>
+                            </tr>
+                            <tr class="c3-tooltip-name--data2">
+                                <td class="name"><span style="background-color:#b6a2de"></span>data2</td>
+                                <td class="value">200</td>
+                            </tr>
+                            <tr class="c3-tooltip-name--data5">
+                                <td class="name"><span style="background-color:#d87a80"></span>data5</td>
+                                <td class="value">130</td>
+                            </tr>
+                            <tr class="c3-tooltip-name--data6">
+                                <td class="name"><span style="background-color:#8d98b3"></span>data6</td>
+                                <td class="value">90</td>
+                            </tr>
+                            <tr class="c3-tooltip-name--data1">
+                                <td class="name"><span style="background-color:#2ec7c9"></span>data1</td>
+                                <td class="value">30</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+       </div>
+       <!-- bar chart ends Here -->
+       <!-- description and pie chart  -->
+       <div class="row">
+           <div class="col-12 col-md-6 col-lg-8">
+                <div class="w-100 d-flex flex-wrap" style="gap:10px ;">
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Leads</p>
+                            <h2 class="my-0">4</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Opportunaty</p>
+                            <h2 class="my-0">0.00</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    <div style="width:200px ; border-left: 2px solid gainsboro;">
+                        <div class="ml-3">
+                            <p class="my-0">Days to Assign</p>
+                            <h2 class="my-0">0.00 days</h2>
+                        </div>
+                    </div>
+                    
+                </div>
+           </div>
+           <div class="col-12 col-md-6 col-lg-4">
+                <div class="pie-charts">
+                    <div class="d-flex flex-wrap" style="box-sizing:content-box ;">
+                        <div>
+                            <div class="d-inline-block c3" id="c3-donut-chart" style="max-height: 320px; position: relative;"><svg width="220"
+                                    height="220" style="overflow: hidden;">
+                                    <defs>
+                                        <clipPath id="c3-1653121774281-clip">
+                                            <rect width="350" height="296"></rect>
+                                        </clipPath>
+                                        <clipPath id="c3-1653121774281-clip-xaxis">
+                                            <rect x="-31" y="-20" width="412" height="40"></rect>
+                                        </clipPath>
+                                        <clipPath id="c3-1653121774281-clip-yaxis">
+                                            <rect x="-29" y="-4" width="20" height="320"></rect>
+                                        </clipPath>
+                                        <clipPath id="c3-1653121774281-clip-grid">
+                                            <rect width="350" height="296"></rect>
+                                        </clipPath>
+                                        <clipPath id="c3-1653121774281-clip-subchart">
+                                            <rect width="350"></rect>
+                                        </clipPath>
+                                    </defs>
+                                    <g transform="translate(0.5,4.5)"><text class="c3-text c3-empty" text-anchor="middle" dominant-baseline="middle"
+                                            x="175" y="148" style="opacity: 0;"></text>
+                                        <rect class="c3-zoom-rect" width="350" height="296" style="opacity: 0;"></rect>
+                                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653121774281-clip)"
+                                            class="c3-regions" style="visibility: hidden;"></g>
+                                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653121774281-clip-grid)"
+                                            class="c3-grid" style="visibility: hidden;">
+                                            <g class="c3-xgrid-focus">
+                                                <line class="c3-xgrid-focus" x1="-10" x2="-10" y1="0" y2="296" style="visibility: hidden;"></line>
+                                            </g>
+                                        </g>
+                                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653121774281-clip)"
+                                            class="c3-chart">
+                                            <g class="c3-event-rects c3-event-rects-single" style="fill-opacity: 0;">
+                                                <rect class=" c3-event-rect c3-event-rect-0" x="0.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-1" x="7.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-2" x="14.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-3" x="21.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-4" x="28.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-5" x="35.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-6" x="42.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-7" x="49.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-8" x="56.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-9" x="63.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-10" x="70.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-11" x="77.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-12" x="84.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-13" x="91.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-14" x="98.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-15" x="105.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-16" x="112.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-17" x="119.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-18" x="126.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-19" x="133.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-20" x="140.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-21" x="147.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-22" x="154.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-23" x="161.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-24" x="168.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-25" x="175.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-26" x="182.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-27" x="189.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-28" x="196.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-29" x="203.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-30" x="210.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-31" x="217.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-32" x="224.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-33" x="231.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-34" x="238.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-35" x="245.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-36" x="252.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-37" x="259.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-38" x="266.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-39" x="273.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-40" x="280.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-41" x="287.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-42" x="294.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-43" x="301.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-44" x="308.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-45" x="315.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-46" x="322.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-47" x="329.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-48" x="336.5" y="0" width="7" height="296"></rect>
+                                                <rect class=" c3-event-rect c3-event-rect-49" x="343.5" y="0" width="7" height="296"></rect>
+                                            </g>
+                                            <g class="c3-chart-bars">
+                                                <g class="c3-chart-bar c3-target c3-target-setosa" style="pointer-events: none;">
+                                                    <g class=" c3-shapes c3-shapes-setosa c3-bars c3-bars-setosa" style="cursor: pointer;"></g>
+                                                </g>
+                                                <g class="c3-chart-bar c3-target c3-target-versicolor" style="pointer-events: none;">
+                                                    <g class=" c3-shapes c3-shapes-versicolor c3-bars c3-bars-versicolor" style="cursor: pointer;">
+                                                    </g>
+                                                </g>
+                                                <g class="c3-chart-bar c3-target c3-target-virginica" style="pointer-events: none;">
+                                                    <g class=" c3-shapes c3-shapes-virginica c3-bars c3-bars-virginica" style="cursor: pointer;">
+                                                    </g>
+                                                </g>
+                                            </g>
+                                            <g class="c3-chart-lines">
+                                                <g class="c3-chart-line c3-target c3-target-setosa" style="opacity: 1; pointer-events: none;">
+                                                    <g class=" c3-shapes c3-shapes-setosa c3-lines c3-lines-setosa"></g>
+                                                    <g class=" c3-shapes c3-shapes-setosa c3-areas c3-areas-setosa"></g>
+                                                    <g class=" c3-selected-circles c3-selected-circles-setosa"></g>
+                                                    <g class=" c3-shapes c3-shapes-setosa c3-circles c3-circles-setosa" style="cursor: pointer;">
+                                                    </g>
+                                                </g>
+                                                <g class="c3-chart-line c3-target c3-target-versicolor" style="opacity: 1; pointer-events: none;">
+                                                    <g class=" c3-shapes c3-shapes-versicolor c3-lines c3-lines-versicolor"></g>
+                                                    <g class=" c3-shapes c3-shapes-versicolor c3-areas c3-areas-versicolor"></g>
+                                                    <g class=" c3-selected-circles c3-selected-circles-versicolor"></g>
+                                                    <g class=" c3-shapes c3-shapes-versicolor c3-circles c3-circles-versicolor"
+                                                        style="cursor: pointer;"></g>
+                                                </g>
+                                                <g class="c3-chart-line c3-target c3-target-virginica" style="opacity: 1; pointer-events: none;">
+                                                    <g class=" c3-shapes c3-shapes-virginica c3-lines c3-lines-virginica"></g>
+                                                    <g class=" c3-shapes c3-shapes-virginica c3-areas c3-areas-virginica"></g>
+                                                    <g class=" c3-selected-circles c3-selected-circles-virginica"></g>
+                                                    <g class=" c3-shapes c3-shapes-virginica c3-circles c3-circles-virginica"
+                                                        style="cursor: pointer;"></g>
+                                                </g>
+                                            </g>
+                                            <g class="c3-chart-arcs" transform="translate(175,143)"><text class="c3-chart-arcs-title"
+                                                    style="text-anchor: middle; opacity: 1;">Iris Petal Width</text>
+                                                <g class="c3-chart-arc c3-target c3-target-setosa">
+                                                    <g class=" c3-shapes c3-shapes-setosa c3-arcs c3-arcs-setosa">
+                                                        <path class=" c3-shape c3-shape c3-arc c3-arc-setosa" transform=""
+                                                            style="fill: rgb(90, 177, 239); cursor: pointer;"
+                                                            d="M-56.58122334909735,-123.50622520472221A135.85,135.85 0 0,1 -1.4561427846588719e-13,-135.85L-8.736856707953231e-14,-81.50999999999999A81.50999999999999,81.50999999999999 0 0,0 -33.948734009458406,-74.10373512283333Z">
+                                                        </path>
+                                                    </g><text dy=".35em" class="" transform="translate(-23.164813357769933,-106.18254951779831)"
+                                                        style="opacity: 1; text-anchor: middle; pointer-events: none;">6.8%</text>
+                                                </g>
+                                                <g class="c3-chart-arc c3-target c3-target-versicolor">
+                                                    <g class=" c3-shapes c3-shapes-versicolor c3-arcs c3-arcs-versicolor">
+                                                        <path class=" c3-shape c3-shape c3-arc c3-arc-versicolor" transform=""
+                                                            style="fill: rgb(255, 185, 128); cursor: pointer;"
+                                                            d="M-52.45293501852296,125.3152508992525A135.85,135.85 0 0,1 -56.58122334909735,-123.50622520472221L-33.948734009458406,-74.10373512283333A81.50999999999999,81.50999999999999 0 0,0 -31.471761011113774,75.1891505395515Z">
+                                                        </path>
+                                                    </g><text dy=".35em" class="" transform="translate(-108.66504472846543,1.8029015948221907)"
+                                                        style="opacity: 1; text-anchor: middle; pointer-events: none;">36.9%</text>
+                                                </g>
+                                                <g class="c3-chart-arc c3-target c3-target-virginica">
+                                                    <g class=" c3-shapes c3-shapes-virginica c3-arcs c3-arcs-virginica">
+                                                        <path class=" c3-shape c3-shape c3-arc c3-arc-virginica" transform=""
+                                                            style="fill: rgb(216, 122, 128); cursor: pointer;"
+                                                            d="M8.318413383208396e-15,-135.85A135.85,135.85 0 1,1 -52.45293501852296,125.3152508992525L-31.471761011113774,75.1891505395515A81.50999999999999,81.50999999999999 0 1,0 4.991048029925038e-15,-81.50999999999999Z">
+                                                        </path>
+                                                    </g><text dy=".35em" class="" transform="translate(106.55222093927611,21.40015450663137)"
+                                                        style="opacity: 1; text-anchor: middle; pointer-events: none;">56.3%</text>
+                                                </g>
+                                            </g>
+                                            <g class="c3-chart-texts">
+                                                <g class="c3-chart-text c3-target c3-target-setosa" style="opacity: 1; pointer-events: none;">
+                                                    <g class=" c3-texts c3-texts-setosa"></g>
+                                                </g>
+                                                <g class="c3-chart-text c3-target c3-target-versicolor" style="opacity: 1; pointer-events: none;">
+                                                    <g class=" c3-texts c3-texts-versicolor"></g>
+                                                </g>
+                                                <g class="c3-chart-text c3-target c3-target-virginica" style="opacity: 1; pointer-events: none;">
+                                                    <g class=" c3-texts c3-texts-virginica"></g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653121774281-clip-grid)"
+                                            class="c3-grid c3-grid-lines">
+                                            <g class="c3-xgrid-lines"></g>
+                                            <g class="c3-ygrid-lines"></g>
+                                        </g>
+                                        <g class="c3-axis c3-axis-x"
+                                            clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653121774281-clip-xaxis)"
+                                            transform="translate(0,296)" style="visibility: visible; opacity: 0;"><text class="c3-axis-x-label"
+                                                transform="" style="text-anchor: end;" x="350" dx="-0.5em" dy="-0.5em"></text>
+                                            <g class="tick" transform="translate(4, 0)" style="opacity: 1;">
+                                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                                    style="text-anchor: middle; display: block;">
+                                                    <tspan x="0" dy=".71em" dx="0">0</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(11, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">1</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(18, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">2</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(25, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">3</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(32, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">4</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(39, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">5</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(46, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">6</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(53, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">7</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(60, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">8</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(67, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">9</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(74, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">10</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(81, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">11</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(88, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">12</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(95, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">13</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(102, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">14</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(109, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">15</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(116, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">16</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(123, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">17</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(130, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">18</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(137, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">19</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(144, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">20</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(151, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">21</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(158, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">22</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(165, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">23</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(172, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">24</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(179, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">25</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(186, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">26</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(193, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">27</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(200, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">28</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(207, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">29</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(214, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">30</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(221, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">31</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(228, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">32</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(235, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">33</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(242, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">34</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(249, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">35</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(256, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">36</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(263, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">37</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(270, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">38</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(277, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">39</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(284, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">40</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(291, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">41</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(298, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">42</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(305, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">43</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(312, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">44</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(319, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">45</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(326, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">46</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(333, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">47</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(340, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">48</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(347, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">49</tspan>
+                                                </text>
+                                            </g>
+                                            <path class="domain" d="M0,6V0H350V6"></path>
+                                        </g>
+                                        <g class="c3-axis c3-axis-y"
+                                            clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653121774281-clip-yaxis)"
+                                            transform="translate(0,0)" style="visibility: visible; opacity: 0;"><text class="c3-axis-y-label"
+                                                transform="rotate(-90)" style="text-anchor: end;" x="0" dx="-0.5em" dy="1.2em"></text>
+                                            <g class="tick" transform="translate(0,282)" style="opacity: 1;">
+                                                <line x2="-6"></line><text y="0" x="-9" style="text-anchor: end;">
+                                                    <tspan x="-9" dy="3">0</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,231)" style="opacity: 1;">
+                                                <line x2="-6"></line><text y="0" x="-9" style="text-anchor: end;">
+                                                    <tspan x="-9" dy="3">0.5</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,180)" style="opacity: 1;">
+                                                <line x2="-6"></line><text y="0" x="-9" style="text-anchor: end;">
+                                                    <tspan x="-9" dy="3">1</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,129)" style="opacity: 1;">
+                                                <line x2="-6"></line><text y="0" x="-9" style="text-anchor: end;">
+                                                    <tspan x="-9" dy="3">1.5</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,77)" style="opacity: 1;">
+                                                <line x2="-6"></line><text y="0" x="-9" style="text-anchor: end;">
+                                                    <tspan x="-9" dy="3">2</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,26)" style="opacity: 1;">
+                                                <line x2="-6"></line><text y="0" x="-9" style="text-anchor: end;">
+                                                    <tspan x="-9" dy="3">2.5</tspan>
+                                                </text>
+                                            </g>
+                                            <path class="domain" d="M-6,1H0V296H-6"></path>
+                                        </g>
+                                        <g class="c3-axis c3-axis-y2" transform="translate(350,0)" style="visibility: hidden; opacity: 0;"><text
+                                                class="c3-axis-y2-label" transform="rotate(-90)" style="text-anchor: end;" x="0" dx="-0.5em"
+                                                dy="-0.5em"></text>
+                                            <g class="tick" transform="translate(0,296)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,267)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0.1</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,237)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0.2</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,208)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0.3</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,178)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0.4</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,149)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0.5</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,119)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0.6</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,90)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0.7</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,60)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0.8</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,31)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">0.9</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(0,1)" style="opacity: 1;">
+                                                <line x2="6"></line><text x="9" y="0" style="text-anchor: start;">
+                                                    <tspan x="9" dy="3">1</tspan>
+                                                </text>
+                                            </g>
+                                            <path class="domain" d="M6,1H0V296H6"></path>
+                                        </g>
+                                    </g>
+                                    <g transform="translate(0.5,320.5)" style="visibility: hidden;">
+                                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653121774281-clip-subchart)"
+                                            class="c3-chart">
+                                            <g class="c3-chart-bars"></g>
+                                            <g class="c3-chart-lines"></g>
+                                        </g>
+                                        <g clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653121774281-clip)"
+                                            class="c3-brush" style="pointer-events: all; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                            <rect class="background" x="0" width="350" style="visibility: hidden; cursor: crosshair;"></rect>
+                                            <rect class="extent" x="0" width="0" style="cursor: move;"></rect>
+                                            <g class="resize e" transform="translate(0,0)" style="cursor: ew-resize; display: none;">
+                                                <rect x="-3" width="6" height="6" style="visibility: hidden;"></rect>
+                                            </g>
+                                            <g class="resize w" transform="translate(0,0)" style="cursor: ew-resize; display: none;">
+                                                <rect x="-3" width="6" height="6" style="visibility: hidden;"></rect>
+                                            </g>
+                                        </g>
+                                        <g class="c3-axis-x" transform="translate(0,0)"
+                                            clip-path="url(file:///home/shuvo/Downloads/limitless-full-theme-master/Template/layout_1/LTR/material/full/c3_bars_pies.html#c3-1653121774281-clip-xaxis)"
+                                            style="visibility: hidden; opacity: 0;">
+                                            <g class="tick" transform="translate(4, 0)" style="opacity: 1;">
+                                                <line x1="0" x2="0" y2="6"></line><text x="0" y="9" transform=""
+                                                    style="text-anchor: middle; display: block;">
+                                                    <tspan x="0" dy=".71em" dx="0">0</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(11, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">1</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(18, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">2</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(25, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">3</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(32, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">4</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(39, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">5</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(46, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">6</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(53, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">7</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(60, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">8</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(67, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">9</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(74, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">10</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(81, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">11</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(88, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">12</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(95, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">13</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(102, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">14</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(109, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">15</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(116, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">16</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(123, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">17</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(130, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">18</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(137, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">19</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(144, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">20</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(151, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">21</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(158, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">22</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(165, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">23</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(172, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">24</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(179, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">25</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(186, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">26</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(193, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">27</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(200, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">28</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(207, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">29</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(214, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">30</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(221, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">31</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(228, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">32</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(235, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">33</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(242, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">34</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(249, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">35</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(256, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">36</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(263, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">37</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(270, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">38</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(277, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">39</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(284, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">40</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(291, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">41</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(298, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">42</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(305, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">43</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(312, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">44</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(319, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">45</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(326, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">46</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(333, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">47</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(340, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: block; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">48</tspan>
+                                                </text>
+                                            </g>
+                                            <g class="tick" transform="translate(347, 0)" style="opacity: 1;">
+                                                <line y2="6" x2="0" x1="0"></line><text transform="" y="9" x="0"
+                                                    style="display: none; text-anchor: middle;">
+                                                    <tspan x="0" dy=".71em" dx="0">49</tspan>
+                                                </text>
+                                            </g>
+                                            <path class="domain" d="M0,6V0H350V6"></path>
+                                        </g>
+                                    </g>
+                                    <g transform="translate(0,300)">
+                                        <g class="c3-legend-item c3-legend-item-setosa" style="visibility: visible; cursor: pointer; opacity: 1;">
+                                            <text x="90.109375" y="9" style="pointer-events: none;">setosa</text>
+                                            <rect class="c3-legend-item-event" x="76.109375" y="-5" style="fill-opacity: 0;" height="18"
+                                                width="60.90625"></rect>
+                                            <line class="c3-legend-item-tile" x1="74.109375" y1="4" x2="84.109375" y2="4" stroke-width="10"
+                                                style="stroke: rgb(90, 177, 239); pointer-events: none;"></line>
+                                        </g>
+                                        <g class="c3-legend-item c3-legend-item-versicolor" style="visibility: visible; cursor: pointer;"><text
+                                                x="151.015625" y="9" style="pointer-events: none;">versicolor</text>
+                                            <rect class="c3-legend-item-event" x="137.015625" y="-5" style="fill-opacity: 0;" height="18"
+                                                width="77.203125"></rect>
+                                            <line class="c3-legend-item-tile" x1="135.015625" y1="4" x2="145.015625" y2="4" stroke-width="10"
+                                                style="stroke: rgb(255, 185, 128); pointer-events: none;"></line>
+                                        </g>
+                                        <g class="c3-legend-item c3-legend-item-virginica"
+                                            style="visibility: visible; cursor: pointer; opacity: 1;"><text x="228.21875" y="9"
+                                                style="pointer-events: none;">virginica</text>
+                                            <rect class="c3-legend-item-event" x="214.21875" y="-5" style="fill-opacity: 0;" height="18"
+                                                width="59.671875"></rect>
+                                            <line class="c3-legend-item-tile" x1="212.21875" y1="4" x2="222.21875" y2="4" stroke-width="10"
+                                                style="stroke: rgb(216, 122, 128); pointer-events: none;"></line>
+                                        </g>
+                                    </g><text class="c3-title" x="175" y="0"></text>
+                                </svg>
+                                <div class="c3-tooltip-container"
+                                    style="position: absolute; pointer-events: none; display: none; top: 207.141px; left: 44.75px;">
+                                    <table class="c3-tooltip">
+                                        <tbody>
+                                            <tr class="c3-tooltip-name--versicolor">
+                                                <td class="name"><span style="background-color:#ffb980"></span>versicolor</td>
+                                                <td class="value">36.9%</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+       <!-- description and pie chart ends here -->
+    <div class="d-flex justify-content-between">
+        <div>
+            <div class="d-flex align-items-center">
+                <div class="d-flex">
+                    <div class="btn-group justify-content-center align-items-center"
+                        style="border:1px solid gainsboro;height: max-content; ">
+                        <a href="#" class="btn bg-white dropdown-toggle legitRipple" data-toggle="dropdown"
+                            aria-expanded="false" style="font-size: .7rem; padding:5px 5px ;">Measures
+                            <div class="legitRipple-ripple"
+                                style="left: 86.2067%; top: 66.8586%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                            </div>
+                            <div class="legitRipple-ripple"
+                                style="left: 92.5783%; top: 22.1217%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                            </div>
+                            <div class="legitRipple-ripple"
+                                style="left: 85.6275%; top: 51.0691%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                            </div>
+                            <div class="legitRipple-ripple"
+                                style="left: 85.6275%; top: 51.0691%; transform: translate3d(-50%, -50%, 0px); width: 204.788%; opacity: 0;">
+                            </div>
+                            <div class="legitRipple-ripple"
+                                style="left: 88.1757%; top: 79.3158%; transform: translate3d(-50%, -50%, 0px); width: 210.378%; opacity: 0;">
+                            </div>
+                        </a>
+    
+                        <div class="dropdown-menu"
+                            style="z-index: 2; position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 29px, 0px);"
+                            x-placement="bottom-start">
+                            <a href="#" class="dropdown-item">Action</a>
+                            <a href="#" class="dropdown-item">Another action</a>
+                            <a href="#" class="dropdown-item">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-submenu">
+                                <a href="#" class="dropdown-item dropdown-toggle">More options</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Second level link</a>
+                                    <div class="dropdown-submenu">
+                                        <a href="#" class="dropdown-item dropdown-toggle">Second level link</a>
+                                        <div class="dropdown-menu">
+                                            <a href="#" class="dropdown-item">Third level link</a>
+                                            <a href="#" class="dropdown-item">Third level link</a>
+                                            <a href="#" class="dropdown-item">Third level link</a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="dropdown-item">Second level link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+    
+    
+                    <!-- dropdown-end -->
+                </div>
+                <div class="d-flex align-items-center ml-2">
+                    <a href="#" class="d-flex align-items-center"
+                        style="font-size: .8rem; border:1px solid gainsboro; padding: 5px 5px;">
+                        <i class="icon-loop text-dark"></i>
+                    </a>
+                    <a href="#" class="d-flex align-items-center"
+                        style="font-size: .8rem; border:1px solid gainsboro; padding: 5px 5px; border-left: none;">
+                        <i class="icon-fold text-dark"></i>
+                    </a>
+                    <a href="#" class="d-flex align-items-center"
+                        style="font-size: .8rem; border:1px solid gainsboro; padding: 5px 5px; border-left: none;">
+                        <i class="icon-move-down  text-dark"></i>
+                    </a>
+    
+                </div>
+                
+            </div>
+        </div>
+        <a href="#" class="d-flex align-items-center"
+            style="font-size: .8rem; border:1px solid gainsboro; padding: 5px 5px;">
+            <i class="icon-shuffle text-dark"></i>
+        </a>
+    </div>
+
+    <div class="reporting-table mt-1">
+        <div class="card card-table table-responsive shadow-0 mb-0">
+            <table class="table text-nowrap">
+                <thead>
+                    <tr class="bg-custom-gray">
+                        <th  colspan="3" rowspan="2" ></th>
+                        <th colspan="7" class="text-center text-dark">Total</th>
+                        
+                    </tr>
+                    <tr>
+                        <th>count</th>
+                        <th class="text-center">Expected revinue</th>
+                        <th class="text-center">Proted Revinue</th>
+                        <th class="text-center">Days to close</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="bg-custom-gray text-dark" colspan="3">Total</td>
+                        <td>4</td>
+                        <td class="text-right">1200</td>
+                        <td class="text-right">1778</td>
+                        <td class="text-right">4.00</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-custom-gray text-dark" colspan="3">Jalil Ahmed Pavel</td>
+                        <td>4</td>
+                        <td class="text-right">1200</td>
+                        <td class="text-right">1778</td>
+                        <td class="text-right">4.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>

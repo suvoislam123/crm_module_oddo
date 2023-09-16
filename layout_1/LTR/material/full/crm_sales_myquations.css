@@ -1,0 +1,26 @@
+.crmvline {
+    width: 70%;
+    height: 15px;
+    background-color: gainsboro;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.icon-sm {
+    font-size: 10px;
+}
+
+.show-at-hover {
+    /* visibility: hidden; */
+
+}
+
+.show-at-hover:hover {
+    visibility: visible;
+}

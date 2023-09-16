@@ -1,0 +1,174 @@
+[33mcommit a1e3c30e4498fa9589ac931c0fef4076cd11b71f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Tue May 17 19:08:44 2022 +0600
+
+    new file added
+
+[33mcommit b787ae847c2a0d2e8a5262f7393710bcb12ec182[m
+Merge: 2b94a89 5a11797
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Tue May 17 18:23:04 2022 +0600
+
+    Merge branch 'main' of https://gitlab.com/suvoislam123/crm_module
+
+[33mcommit 2b94a89be89cefe6e3ac9426a1961a450221e0f9[m
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Tue May 17 18:22:45 2022 +0600
+
+    stashing
+
+[33mcommit 5a11797800cda1273c68c4452d3f9b25f9f0e5e2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 49e60ae 311adf5
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Tue May 17 18:15:20 2022 +0600
+
+    Merge branch 'main' of https://gitlab.com/suvoislam123/crm_module into main
+
+[33mcommit 49e60ae58cf5aa52ec3ef31c9dd72d246c3370dd[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Tue May 17 18:14:56 2022 +0600
+
+    my work stashing
+
+[33mcommit 311adf5b0187aeab3a7cd7bb4c60c00e433f6767[m
+Merge: 860e16e 1ed1742
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Tue May 17 18:13:37 2022 +0600
+
+    Merge branch 'main' of https://gitlab.com/suvoislam123/crm_module
+
+[33mcommit 860e16e7d03df0183b6c14f7c7d5369fc5c7bc33[m
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Tue May 17 18:13:17 2022 +0600
+
+    resposnive navbar added
+
+[33mcommit 1ed1742f4ffae35fadf9df5e7e37bddcbb66a512[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Tue May 17 16:38:23 2022 +0600
+
+    media query added in crm.css and extra page added
+
+[33mcommit 1ad2a8d0c4460aaf39ce8647579fafc1cfbee80f[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Tue May 17 15:15:16 2022 +0600
+
+    2 page added
+
+[33mcommit 0e924be693639cbe53b9fd3fe3e460e8812b3ec3[m
+Merge: 94eb2e2 5ffa9e8
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Mon May 16 19:52:23 2022 +0600
+
+    Merge branch 'main' of https://gitlab.com/suvoislam123/crm_module
+
+[33mcommit 94eb2e230d063c7b7eac445484186de8ab0689c9[m
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Mon May 16 19:52:07 2022 +0600
+
+    navbar added
+
+[33mcommit 5ffa9e86295c44a47e7a4193397d1fcdc7e4ab02[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Mon May 16 19:49:09 2022 +0600
+
+    leaving office
+
+[33mcommit a1c3b8d00d17a1b1d065f1a6a90727d74de947f3[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Mon May 16 18:38:24 2022 +0600
+
+    crm_sales_myquations page added
+
+[33mcommit 1eb094781f7b3b7128696aa4b7754e38005bab86[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Mon May 16 17:27:49 2022 +0600
+
+    kind of manual merging
+
+[33mcommit a447879ed575524b0d869870fd6a23ad0712e17b[m
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Mon May 16 17:20:44 2022 +0600
+
+    new code added
+
+[33mcommit e7e45a95315500403c6b576b059f4f84341ba71d[m
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Mon May 16 11:50:28 2022 +0600
+
+    new work
+
+[33mcommit 4e0495c6626cf4d231fa257d9270748d644b31d9[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Mon May 16 11:45:35 2022 +0600
+
+    new change
+
+[33mcommit bda8a342a69fc4c69ed7910d6223ece4a1d5778c[m
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Sun May 15 18:27:53 2022 +0600
+
+    new change
+
+[33mcommit 587ff1ed4bc668c6e3a9a5f29a3f574543907dac[m
+Merge: 229a0ed 3517760
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Sun May 15 18:19:44 2022 +0600
+
+    Merge branch 'main' of https://gitlab.com/suvoislam123/crm_module
+
+[33mcommit 229a0edacdbcffe5d41a7e8395f7beeb85c83304[m
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Sun May 15 18:18:45 2022 +0600
+
+    icon added
+
+[33mcommit 3517760e52627c07a94b7954d58c477a3f8e7d93[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Sun May 15 18:16:50 2022 +0600
+
+    leaving office
+
+[33mcommit 7d7b4893bf6d68bbf52613ed0e4aa0964771cbbb[m
+Merge: 6d53ebc a0dac29
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Sun May 15 17:56:19 2022 +0600
+
+    Merge branch 'main' of https://gitlab.com/suvoislam123/crm_module into main
+
+[33mcommit 6d53ebc6ed18ce71979d2b73f7bd503be655f856[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Sun May 15 17:54:16 2022 +0600
+
+    Nadim commit
+
+[33mcommit a0dac29c56779a82508b85e59afc6aab7e1fe62c[m
+Author: @NadimBhuiyan <nadim2513@student.nstu.edu.bd>
+Date:   Sun May 15 17:50:44 2022 +0600
+
+    new file
+
+[33mcommit dc8eea1aed226b817acbd59f864789c74f443e40[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Sun May 15 17:35:21 2022 +0600
+
+    first commit
+
+[33mcommit ae5d33e9417470659dc846bd4691881cd26b8a1d[m
+Merge: 31e4920 6676b6e
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Sun May 15 17:21:29 2022 +0600
+
+    Merge branch 'main' of https://gitlab.com/suvoislam123/crm_module into main
+
+[33mcommit 31e4920b29a5b6f97f7aee6775cf7c4829efb57a[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Sun May 15 17:19:54 2022 +0600
+
+    firs
+
+[33mcommit 6676b6e51c9a055b17e3e96a7b4460c2065dc556[m
+Author: suvoislam123 <suvoislam753@gmail.com>
+Date:   Sun May 15 11:09:56 2022 +0000
+
+    Initial commit

@@ -1,0 +1,125 @@
+.crmvline{
+    width: 200px;
+    height: 10px;
+    background-color: gainsboro;
+}
+.text-yellow{
+    color: yellow;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.icon-sm{
+    font-size: 10px;
+}
+.icon-xsm{
+    font-size: 5px;
+}
+.mt-ng-1{
+    margin-top: -300px;
+}
+.show-at-hover{
+    /* visibility: hidden; */
+
+}
+.show-at-hover:hover{
+    visibility: visible;
+}
+.grid-cols-5{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;   
+}
+input[type='checkbox'],input[type='radio']{
+    accent-color:#297e84;
+}
+.reporting-table table, th, td{
+    border:1px solid gainsboro;
+}
+.reporting-table th, td{
+    border:1px solid gainsboro;
+    padding: 5px !important;
+    height: max-content;
+}
+.reporting-table .bg-custom-gray{
+    background-color: #f6f7fa;
+}
+.sales_myquations_table td,th{
+    border: none;
+}
+.invisible_input{
+    border: none;
+    width: 97%;
+}
+.invisible_input:focus {
+    
+    outline: none;
+}
+.sm_full_md_half{
+    width: 100%;
+}
+.text-primary{
+    color: #297e84 !important;
+}
+.sm_static_md_fixed{
+    position: static;
+}
+.sm_d_none_md_block{
+    display: none;
+}
+.search_bottom_border{
+    border-bottom: 1px solid gray;
+}
+.bg-primary{
+   background-color:  #297e84 !important;
+}
+
+
+/* media queries */
+/* sm device query starts here */
+@media only  screen and (max-width:576px) {
+    .grid-cols-5{
+        grid-template-columns: 1fr;
+    }    
+}
+/* md device query starts here */
+@media only screen and (min-width:576px) and (max-width:768px){
+    .grid-cols-5{
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+/* lg device starts here */
+@media screen and (min-width:769px) and (max-width:992px) {
+    .grid-cols-5{
+        grid-template-columns: 1fr 1fr;
+    }
+    .sm_full_md_half{
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (min-width:992px) and (max-width:1400px){
+    .grid-cols-5{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    .sm_static_md_fixed {
+        position: fixed;
+    }
+    .sm_d_none_md_block {
+        display: block;
+    }
+    
+}
+@media only screen and (min-width:1400px){
+    .grid-cols-5{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .sm_static_md_fixed{
+        position: fixed;
+    }
+    .sm_d_none_md_block {
+        display: block;
+    }
+    
+}
